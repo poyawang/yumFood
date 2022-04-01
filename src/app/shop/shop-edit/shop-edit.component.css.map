@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,cAAc,CAAC;EACb,gBAAgB,EAAE,wBAAwB;EAC1C,MAAM,EAAC,CAAC;CAuBT;;AAzBD,AAIE,cAJY,CAIZ,aAAa,CAAA;EACX,GAAG,EAAC,KAAK;CACV;;AANH,AAOE,cAPY,CAOZ,YAAY,CAAC;EACX,KAAK,ECAK,OAAO;CDClB;;AATH,AAUE,cAVY,CAUZ,WAAW,CAAC;EACV,UAAU,EAAC,KAAK;EAChB,QAAQ,EAAC,MAAM;CAIhB;;AAhBH,AAaI,cAbU,CAUZ,WAAW,CAGT,EAAE,CAAA;EACA,KAAK,ECXC,OAAO;CDYd;;AAfL,AAkBI,cAlBU,CAiBZ,aAAa,CACX,QAAQ,CAAA;EACN,gBAAgB,ECdP,OAAO;CDejB;;AApBL,AAqBI,cArBU,CAiBZ,aAAa,CAIX,UAAU,CAAC;EACT,gBAAgB,ECrBR,OAAO;CDsBhB",
+    "sources": [
+        "shop-edit.component.scss",
+        "../../../variables.scss"
+    ],
+    "names": [],
+    "file": "shop-edit.component.css"
+}

@@ -1,0 +1,19 @@
+<div class="shop-list">
+  <div class="panel-heading">
+    <div>
+      <img class="w-15 logo" src="https://i.ibb.co/R09jdQf/logo.png" alt="">
+    </div>
+    <div class="">
+      <h1 class="title">Shop</h1>
+      <a class="font-14 btn  add " routerLink="new" data-toggle="modal" data-target="#shopEditModal">Add Food</a>
+    </div>
+  </div>
+  <div class="">
+    <div class="shop-item">
+      <app-shop-item
+      *ngFor="let shopEl of shops"
+      [shop]="shopEl"></app-shop-item>
+    </div>
+  </div>
+
+</div>

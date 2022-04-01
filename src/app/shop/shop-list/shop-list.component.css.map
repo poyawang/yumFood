@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAEE,UAFQ,CAER,KAAK,CAAC;EACJ,OAAO,EAAC,KAAK;EACb,MAAM,EAAC,MAAM;CAEd;;AANH,AAOE,UAPQ,CAOR,MAAM,CAAC;EACL,UAAU,EAAC,MAAM;EACjB,KAAK,EAAC,OAAe;EACrB,UAAU,EAAE,IAAI;CACjB;;AAXH,AAYE,UAZQ,CAYR,IAAI,CAAC;EACH,KAAK,ECLK,OAAO;EDMjB,gBAAgB,ECPL,OAAO;EDQlB,aAAa,EAAC,GAAG;EACjB,KAAK,EAAC,KAAK;CACZ;;AAjBH,AAkBE,UAlBQ,CAkBR,UAAU,CAAA;EACR,OAAO,EAAC,IAAI;EACZ,SAAS,EAAC,IAAI;EACd,eAAe,EAAE,aAAa;EAC9B,UAAU,EAAC,IAAI;CAChB",
+    "sources": [
+        "shop-list.component.scss",
+        "../../../variables.scss"
+    ],
+    "names": [],
+    "file": "shop-list.component.css"
+}

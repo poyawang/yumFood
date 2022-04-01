@@ -1,0 +1,113 @@
+
+
+<div class="modal fade" id="foodEditModal" tabindex="-1" role="dialog" aria-labelledby="foodEditLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title text-center" id="foodEditLabel">yumFood</h3>
+        <button type="button" class="close" (click)="onCancel()" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form id="recipe-edit" #f="ngForm" (ngSubmit)="onSubmit(f)">
+       <div class="modal-body">
+          <div class="row">
+
+            <div class="col-sm-12 form-group">
+              <label for="foodName">Food Name</label>
+              <input #name="ngModel" name="foodName" type="text" id="foodName" class="form-control" size="120" max="120"
+                [ngModel]="recipe?.foodName" required>
+            </div>
+
+            <div class="col-sm-12 form-group">
+              <label for="country">WHere is the food from?</label>
+              <input name="country" type="text" id="country" class="form-control" size="120" max="255"
+                [ngModel]="recipe?.country">
+            </div>
+
+            <div class="col-sm-12 form-group">
+              <label for="foodImg">Food Image URL</label>
+              <input #url="ngModel" name="foodImg" type="text" id="foodImg" class="form-control"
+               [ngModel]="recipe?.foodImg" required>
+            </div>
+            <div class="col-sm-12 form-group">
+              <label for="subject">Food Introduction</label>
+              <textarea #url="ngModel" name="subject" type="text" id="subject" class="form-control" rows="4"
+              [ngModel]="recipe?.subject" required></textarea>
+            </div>
+            <div class="col-sm-12 form-group">
+              <label for="ingredients">Food Ingredients</label>
+              <textarea #url="ngModel" name="ingredients" type="text" id="ingredients" class="form-control" rows="4"
+                 [ngModel]="recipe?.ingredients" required></textarea>
+            </div>
+            <div class="col-sm-12 form-group">
+              <label for="description">Food Description</label>
+              <textarea #url="ngModel" name="description" type="text" id="description" class="form-control" rows="4"
+                 [ngModel]="recipe?.description" required></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer col-xs-12 btn-toolbar">
+          <button type="button" class="btn cancelBtn " (click)="onCancel()" data-dismiss="modal" >Cancel</button>
+          <button type="submit" class="btn saveBtn "  [disabled]="!f.valid" >Save</button>
+        </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="panel panel-default">
+	<div class="panel-body">
+
+		<form id="document-edit" #f="ngForm" (ngSubmit)="onSubmit(f)">
+			<div class="row">
+
+				<div class="col-sm-12 form-group">
+					<label for="foodName">Food Name</label>
+					<input #name="ngModel" name="foodName" type="text" id="foodName" class="form-control" size="120" max="120"
+						[ngModel]="recipe?.foodName" required>
+				</div>
+
+				<div class="col-sm-12 form-group">
+					<label for="country">WHere is the food from?</label>
+					<input name="country" type="text" id="country" class="form-control" size="120" max="255"
+						[ngModel]="recipe?.country">
+				</div>
+
+				<div class="col-sm-12 form-group">
+					<label for="foodImg">Food Image URL</label>
+					<input #url="ngModel" name="foodImg" type="text" id="foodImg" class="form-control"
+           [ngModel]="recipe?.foodImg" required>
+				</div>
+        <div class="col-sm-12 form-group">
+					<label for="subject">Food Introduction</label>
+					<input #url="ngModel" name="subject" type="text" id="subject" class="form-control"
+					[ngModel]="recipe?.subject" required>
+				</div>
+        <div class="col-sm-12 form-group">
+					<label for="ingredients">Food Ingredients</label>
+					<input #url="ngModel" name="ingredients" type="text" id="ingredients" class="form-control"
+						 [ngModel]="recipe?.ingredients" required>
+				</div>
+        <div class="col-sm-12 form-group">
+					<label for="description">Food Description</label>
+					<input #url="ngModel" name="description" type="text" id="description" class="form-control"
+						 [ngModel]="recipe?.description" required>
+				</div>
+			</div> -->
+			<!-- <div class="alert alert-danger" *ngIf="!foodName.valid || !ingredients.valid">
+				The Food Name and Ingredients are required fields!
+			</div> -->
+
+			<!-- <div class="row">
+				<div class="col-xs-12 btn-toolbar">
+					<button class="btn btn-success" type="submit" [disabled]="!f.valid">Save</button>
+					<button class="btn btn-primary" type="button" (click)="onCancel()">Cancel</button>
+				</div>
+			</div>
+
+		</form>
+
+	</div>
+</div> -->

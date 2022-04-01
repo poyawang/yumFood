@@ -1,0 +1,30 @@
+.shop-list .logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.shop-list .title {
+  text-align: center;
+  color: #5f5555;
+  margin-top: 5rem;
+}
+
+.shop-list .add {
+  color: #df520c;
+  background-color: #f5ece7;
+  border-radius: 5px;
+  float: right;
+}
+
+.shop-list .shop-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5rem;
+}
+/*# sourceMappingURL=shop-list.component.css.map */

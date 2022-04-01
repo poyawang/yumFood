@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAEE,YAFU,CAEV,KAAK,CAAC;EACJ,OAAO,EAAC,KAAK;EACb,MAAM,EAAC,MAAM;CAEd;;AANH,AAOE,YAPU,CAOV,MAAM,CAAC;EACL,UAAU,EAAC,MAAM;EACjB,KAAK,EAAC,OAAe;EACrB,UAAU,EAAE,IAAI;CACjB;;AAXH,AAYE,YAZU,CAYV,IAAI,CAAC;EACH,KAAK,ECNK,OAAO;EDOjB,gBAAgB,ECRL,OAAO;EDSlB,aAAa,EAAC,GAAG;EACjB,KAAK,EAAC,KAAK;CACZ;;AAjBH,AAkBE,YAlBU,CAkBV,YAAY,CAAA;EACV,OAAO,EAAC,IAAI;EACZ,SAAS,EAAC,IAAI;EACd,eAAe,EAAE,aAAa;EAC9B,UAAU,EAAC,IAAI;CAChB",
+    "sources": [
+        "recipe-list.component.scss",
+        "../../../variables.scss"
+    ],
+    "names": [],
+    "file": "recipe-list.component.css"
+}

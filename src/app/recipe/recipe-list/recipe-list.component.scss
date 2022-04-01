@@ -1,0 +1,29 @@
+@import "../../../variables.scss";
+
+.recipe-list {
+
+  .logo {
+    display:block;
+    margin:0 auto;
+
+  }
+  .title {
+    text-align:center;
+    color:rgb(95, 85, 85);
+    margin-top: 5rem;
+  }
+  .add {
+    color: $dark-orange;
+    background-color: $light-orange;
+    border-radius:5px;
+    float:right;
+  }
+  .recipe-item{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-top:5rem;
+  }
+}
+
+

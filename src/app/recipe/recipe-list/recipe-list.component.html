@@ -1,0 +1,19 @@
+<div class="recipe-list">
+  <div class="panel-heading">
+    <div>
+      <img class="w-15 logo" src="https://i.ibb.co/R09jdQf/logo.png" alt="">
+    </div>
+    <div class="">
+      <h1 class="title">Recipe</h1>
+      <a class="font-14 btn  add " routerLink="new" data-toggle="modal" data-target="#foodEditModal">Add Recipe</a>
+    </div>
+  </div>
+  <div class="">
+    <div class="recipe-item">
+      <app-recipe-item
+      *ngFor="let recipeEl of recipes"
+      [recipe]="recipeEl"></app-recipe-item>
+    </div>
+  </div>
+
+</div>

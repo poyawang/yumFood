@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAA;EACP,SAAS,EAAC,KAAK;CAchB;;AAfD,AAGE,SAHO,CAGP,GAAG,CAAC;EAEF,UAAU,EAAC,IAAI;EACf,aAAa,EAAC,IAAI;CACnB;;AAPH,AASE,SATO,CASP,SAAS,CAAC;EACR,KAAK,ECLI,OAAe;EDMxB,UAAU,EAAC,IAAI;EACf,OAAO,EAAC,IAAI;EACZ,eAAe,EAAC,MAAM;CACvB",
+    "sources": [
+        "recipe-item.component.scss",
+        "../../../variables.scss"
+    ],
+    "names": [],
+    "file": "recipe-item.component.css"
+}

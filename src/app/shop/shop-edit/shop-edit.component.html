@@ -1,0 +1,115 @@
+<div class="modal fade" id="shopEditModal" tabindex="-1" role="dialog" aria-labelledby="shopEditLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title text-center" id="shopEditLabel">yumFood</h3>
+        <button type="button" class="close" (click)="onCancel()" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form id="document-edit" #f="ngForm" (ngSubmit)="onSubmit(f)">
+      <div class="modal-body">
+          <div class="row">
+
+            <div class="col-sm-12 form-group">
+              <label for="foodName">Food Name</label>
+              <input #name="ngModel" name="foodName" type="text" id="foodName" class="form-control" size="120" max="120"
+                [ngModel]="shop?.foodName" required>
+            </div>
+
+            <div class="col-sm-12 form-group">
+              <label for="foodImg">Food Image</label>
+              <input name="foodImg" type="text" id="foodImg" class="form-control" size="120"
+                [ngModel]="shop?.foodImg">
+            </div>
+
+            <div class="col-sm-12 form-group">
+              <label for="subject">Food Introduction</label>
+              <textarea #url="ngModel" name="subject" type="text" id="subject" class="form-control" rows="4"
+                 [ngModel]="shop?.subject" required></textarea>
+            </div>
+            <div class="col-sm-12 form-group">
+              <label for="price">Price</label>
+              <input #url="ngModel" name="price" type="text" id="price" class="form-control" size="150"
+                max="700" [ngModel]="shop?.price" required>
+            </div>
+            <div class="col-sm-12 form-group">
+              <label for="size">Serving Size</label>
+              <input #url="ngModel" name="size" type="text" id="size" class="form-control"
+                 [ngModel]="shop?.size" required>
+            </div>
+            <div class="col-sm-12 form-group">
+              <label for="location">Available Location</label>
+              <input #url="ngModel" name="location" type="text" id="location" class="form-control"
+               [ngModel]="shop?.location" required>
+            </div>
+          </div>
+          <!-- <div class="alert alert-danger" *ngIf="!foodName.valid || !ingredients.valid">
+            The Food Name and Ingredients are required fields!
+          </div> -->
+
+      </div>
+      <div class="modal-footer col-xs-12 btn-toolbar">
+        <button type="button" class="btn cancelBtn " (click)="onCancel()" data-dismiss="modal" >Cancel</button>
+        <button type="submit" class="btn saveBtn "  [disabled]="!f.valid"  >Save</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="panel panel-default">
+	<div class="panel-body">
+
+		<form id="document-edit" #f="ngForm" (ngSubmit)="onSubmit(f)">
+			<div class="row">
+
+				<div class="col-sm-12 form-group">
+					<label for="foodName">Food Name</label>
+					<input #name="ngModel" name="foodName" type="text" id="foodName" class="form-control" size="120" max="120"
+						[ngModel]="shop?.foodName" required>
+				</div>
+
+				<div class="col-sm-12 form-group">
+					<label for="foodImg">Food Image</label>
+					<input name="foodImg" type="text" id="foodImg" class="form-control" size="120"
+						[ngModel]="shop?.foodImg">
+				</div>
+
+				<div class="col-sm-12 form-group">
+					<label for="subject">Food Introduction</label>
+					<input #url="ngModel" name="subject" type="text" id="subject" class="form-control"
+						 [ngModel]="shop?.subject" required>
+				</div>
+        <div class="col-sm-12 form-group">
+					<label for="price">Price</label>
+					<input #url="ngModel" name="price" type="text" id="price" class="form-control" size="150"
+						max="700" [ngModel]="shop?.price" required>
+				</div>
+        <div class="col-sm-12 form-group">
+					<label for="size">Serving Size</label>
+					<input #url="ngModel" name="size" type="text" id="size" class="form-control"
+						 [ngModel]="shop?.size" required>
+				</div>
+        <div class="col-sm-12 form-group">
+					<label for="location">Available Location</label>
+					<input #url="ngModel" name="location" type="text" id="location" class="form-control"
+           [ngModel]="shop?.location" required>
+				</div>
+			</div> -->
+			<!-- <div class="alert alert-danger" *ngIf="!foodName.valid || !ingredients.valid">
+				The Food Name and Ingredients are required fields!
+			</div> -->
+<!--
+			<div class="row">
+				<div class="col-xs-12 btn-toolbar">
+					<button class="btn btn-success" type="submit" [disabled]="!f.valid">Save</button>
+					<button class="btn btn-primary" type="button" (click)="onCancel()">Cancel</button>
+				</div>
+			</div>
+
+		</form>
+
+	</div>
+</div> -->

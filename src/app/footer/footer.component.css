@@ -1,0 +1,23 @@
+#footer {
+  background-color: #dbded1;
+  padding: 5rem;
+}
+
+#footer img {
+  max-width: 30px;
+}
+
+#footer .copyRight .copy {
+  text-align: center;
+}
+
+#footer .copyRight .email {
+  text-align: right;
+  margin-right: 5rem;
+}
+
+#footer .social-icon {
+  text-align: right;
+  margin-right: 10rem;
+}
+/*# sourceMappingURL=footer.component.css.map */

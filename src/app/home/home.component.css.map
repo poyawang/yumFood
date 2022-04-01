@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACE,KADG,CACH,GAAG,CAAC;EACF,MAAM,EAAC,IAAI;CACZ",
+    "sources": [
+        "home.component.scss",
+        "../../variables.scss"
+    ],
+    "names": [],
+    "file": "home.component.css"
+}

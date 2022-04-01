@@ -1,0 +1,20 @@
+.clearfix {
+  max-width: 350px;
+}
+
+.clearfix img {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.clearfix .foodName {
+  color: #5f5555;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=shop-item.component.css.map */

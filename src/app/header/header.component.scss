@@ -1,0 +1,9 @@
+@import "../../variables.scss";
+
+.navbar {
+  background-color: $basic-green;
+    a {
+      color:rgb(101, 101, 101);
+      height:50px;
+    }
+}

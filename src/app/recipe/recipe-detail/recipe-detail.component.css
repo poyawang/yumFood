@@ -1,0 +1,30 @@
+#foodDetail {
+  background-color: rgba(199, 195, 195, 0.8);
+  margin: 0;
+}
+
+#foodDetail .modal-dialog {
+  top: 170px;
+}
+
+#foodDetail .modal-title {
+  color: #df520c;
+}
+
+#foodDetail .modal-body {
+  max-height: 600px;
+  overflow: scroll;
+}
+
+#foodDetail .modal-body h3 {
+  color: #5d624a;
+}
+
+#foodDetail .modal-footer .editBtn {
+  background-color: #ebc9b9;
+}
+
+#foodDetail .modal-footer .deleteBtn {
+  background-color: #dbded1;
+}
+/*# sourceMappingURL=recipe-detail.component.css.map */

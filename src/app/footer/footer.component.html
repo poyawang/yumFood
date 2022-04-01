@@ -1,0 +1,13 @@
+<div id="footer">
+  <div class="copyRight">
+    <p class="copy">COPYRIGHT &copy; 2022 YUMFOOD</p>
+    <p class="email">Email: yumfood.mail.com</p>
+  </div>
+  <div class="social-icon">
+    <ng-container *ngFor="let icon of footer">
+      <a href="{{icon.imgUrl}}" target="_blank">
+        <img class="" src="{{icon.iconUrl}}" alt="">
+      </a>
+    </ng-container>
+  </div>
+</div>

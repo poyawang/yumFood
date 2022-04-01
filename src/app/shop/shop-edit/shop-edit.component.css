@@ -1,0 +1,30 @@
+#shopEditModal {
+  background-color: rgba(199, 195, 195, 0.8);
+  margin: 0;
+}
+
+#shopEditModal .modal-dialog {
+  top: 150px;
+}
+
+#shopEditModal .modal-title {
+  color: #df520c;
+}
+
+#shopEditModal .modal-body {
+  max-height: 500px;
+  overflow: scroll;
+}
+
+#shopEditModal .modal-body h3 {
+  color: #5d624a;
+}
+
+#shopEditModal .modal-footer .saveBtn {
+  background-color: #ebc9b9;
+}
+
+#shopEditModal .modal-footer .cancelBtn {
+  background-color: #dbded1;
+}
+/*# sourceMappingURL=shop-edit.component.css.map */

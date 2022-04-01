@@ -1,0 +1,30 @@
+#foodEditModal {
+  background-color: rgba(199, 195, 195, 0.8);
+  margin: 0;
+}
+
+#foodEditModal .modal-dialog {
+  top: 200px;
+}
+
+#foodEditModal .modal-title {
+  color: #df520c;
+}
+
+#foodEditModal .modal-body {
+  max-height: 500px;
+  overflow: scroll;
+}
+
+#foodEditModal .modal-body h3 {
+  color: #5d624a;
+}
+
+#foodEditModal .modal-footer .saveBtn {
+  background-color: #ebc9b9;
+}
+
+#foodEditModal .modal-footer .cancelBtn {
+  background-color: #dbded1;
+}
+/*# sourceMappingURL=recipe-edit.component.css.map */

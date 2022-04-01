@@ -1,0 +1,30 @@
+#shopDetail {
+  background-color: rgba(199, 195, 195, 0.8);
+  margin: 0;
+}
+
+#shopDetail .modal-dialog {
+  top: 170px;
+}
+
+#shopDetail .modal-title {
+  color: #df520c;
+}
+
+#shopDetail .modal-body {
+  max-height: 600px;
+  overflow: scroll;
+}
+
+#shopDetail .modal-body h3 {
+  color: #5d624a;
+}
+
+#shopDetail .modal-footer .editBtn {
+  background-color: #ebc9b9;
+}
+
+#shopDetail .modal-footer .deleteBtn {
+  background-color: #dbded1;
+}
+/*# sourceMappingURL=shop-detail.component.css.map */

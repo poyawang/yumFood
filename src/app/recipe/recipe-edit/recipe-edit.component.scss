@@ -1,0 +1,29 @@
+@import "../../../variables.scss";
+
+#foodEditModal {
+  background-color: rgba(199, 195, 195, 0.8);
+  margin:0;
+
+
+  .modal-dialog{
+    top:200px;
+  }
+  .modal-title {
+    color:$dark-orange;
+  }
+  .modal-body {
+    max-height:500px;
+    overflow:scroll;
+    h3{
+      color:$dark-green;
+    }
+  }
+  .modal-footer {
+    .saveBtn{
+      background-color:$basic-orange;
+    }
+    .cancelBtn {
+      background-color:$basic-green;
+    }
+  }
+}

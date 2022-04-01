@@ -1,0 +1,24 @@
+@import "../../variables.scss";
+
+#footer {
+  background-color:$basic-green;
+  padding:5rem;
+
+  img {
+    max-width:30px;
+  }
+
+  .copyRight{
+    .copy {
+      text-align:center;
+    }
+    .email {
+      text-align:right;
+      margin-right:5rem;
+    }
+  }
+  .social-icon {
+    text-align:right;
+    margin-right:10rem;
+  }
+}

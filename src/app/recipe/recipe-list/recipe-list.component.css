@@ -1,0 +1,30 @@
+.recipe-list .logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.recipe-list .title {
+  text-align: center;
+  color: #5f5555;
+  margin-top: 5rem;
+}
+
+.recipe-list .add {
+  color: #df520c;
+  background-color: #f5ece7;
+  border-radius: 5px;
+  float: right;
+}
+
+.recipe-list .recipe-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5rem;
+}
+/*# sourceMappingURL=recipe-list.component.css.map */
