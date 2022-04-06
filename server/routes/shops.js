@@ -65,7 +65,7 @@ router.post('/', (req, res, next) => {
 router.put('/:id', (req, res, next) => {
   //find shop with specific id passed on parameter
   Shop.findOne({ id: req.params.id })
-    .then(rec => {
+    .then(shop => {
       //re assign values with those coming from request
       shop.foodName = req.body.foodName;
       shop.foodImg = req.body.foodImg;
